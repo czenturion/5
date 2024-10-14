@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+.task-list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-top: 14px;
+}
+
+.task-item {
+    padding: 8px;
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+.task-item:hover {
+    background-color: #c7c7c7;
+}
+
+.task-text {
+    width: 50%;
+    margin: 0 5px 0 0;
+    word-break: break-all;
+}
+
+button {
+    border: 1px solid transparent;
+    height: 21px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+
+.delete-button {
+    margin-right: 4px;
+}
+
+.delete-button:hover {
+    background-color: #ff7171;
+}
+
+.complete-button:hover {
+    background-color: #86ff86;
+}
